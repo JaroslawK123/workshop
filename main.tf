@@ -29,7 +29,7 @@ resource "azurerm_service_plan" "example" {
 
 
 resource "azurerm_linux_web_app" "example" {
-  name                = "name_jaroslawk" 
+  name                = "namejaroslawk643678954" 
   location            = "westeurope" 
   resource_group_name = "uers01"
   service_plan_id     = azurerm_service_plan.example.id
